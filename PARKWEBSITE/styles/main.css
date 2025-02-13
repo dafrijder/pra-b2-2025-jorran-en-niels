@@ -181,6 +181,17 @@ button{
 .sidy-by-side{
 }
 
+.item-container{
+  margin: 0 auto;
+  width: 70%;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
 .description{
   flex: 1;
 }
@@ -209,7 +220,12 @@ footer{
 */
 
 @media (max-width: 480px) {
-
+  .hidden-on-lg{
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
 }
 
 /* 
