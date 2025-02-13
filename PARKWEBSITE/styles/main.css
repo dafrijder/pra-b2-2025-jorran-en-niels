@@ -95,6 +95,12 @@ table tfoot{
 .row{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  text-shadow:
+  0 0 0 #FCFCFC,
+  -1px -1px 0 #FCFCFC,
+  1px -1px 0 #FCFCFC,
+  -1px 1px 0 #FCFCFC,
+  1px 1px 0 #FCFCFC;
 }
 
 article{
