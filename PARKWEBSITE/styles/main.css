@@ -173,6 +173,8 @@ button{
 }
 
 .sidy-by-side{
+  display: flex;
+  justify-content: space-around;
 }
 
 .item-container{
@@ -219,6 +221,19 @@ footer{
   }
   .hidden-on-sm{
     display: none;
+  }
+
+  .item-container{
+    width: 100%;
+  }
+  .item{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidy-by-side{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
