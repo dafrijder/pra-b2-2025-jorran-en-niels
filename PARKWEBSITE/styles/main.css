@@ -93,9 +93,8 @@ table tfoot{
 }
 
 .row{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 article{
